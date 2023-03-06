@@ -10,7 +10,7 @@ The dataset consists of building characteristics, weather data for the location 
 
 source of dataset & data dictionary -  <a href="https://www.kaggle.com/c/widsdatathon2022/data" target="_blank">Click Here</a>    
 
-**Problem Statement:** You are provided with two datasets: (1) the train\_dataset where the observed values of the Site EUI for each row are provided and (2) the x\_test dataset the observed values of the Site EUI for each row are removed and provided separately in y\_test. Your task is to predict the Site EUI for each row (using the complete training dataset), given the characteristics of the building and the weather data for the location of the building. Use the test sets for validation and testing. 
+**Problem Statement:** There are two datasets: (1) the train\_dataset where the observed values of the Site EUI for each row are provided and (2) the x\_test dataset the observed values of the Site EUI for each row are removed and provided separately in y\_test. The task is to predict the Site EUI for each row (using the complete training dataset), given the characteristics of the building and the weather data for the location of the building. The test sets is used for validation and testing. 
 
 The target variable is **site\_eui** and the evaluation metric is **RMSE** score.
 
